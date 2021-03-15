@@ -7,7 +7,7 @@ let guesses = 0;
 let isSunk = false;
 
 while (isSunk == false) {
-    guess = prompt("Ready, aim, fire! (enter a number 0-6):");
+    guess = prompt("Ready, aim, fire! (enter a number 0-6, don't enter the same number twice!):");
     if (guess < 0 || guess > 6) {
         alert("Please enter a valid cell number!");
     } else {
